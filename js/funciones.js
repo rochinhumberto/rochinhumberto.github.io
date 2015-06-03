@@ -1,0 +1,506 @@
+var inicio = function()
+{
+
+	var mostrarInicio=function()
+	{
+		$("#section1").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");
+
+	}
+
+	var mostrarActividad1 = function()
+	{
+		$("#section2").show("slow");
+		$("#section1").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");
+	}
+	var mostrarActividad2 = function()
+	{
+		$("#section3").show("slow");
+		$("#section1").hide("fast");
+		$("#section2").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");
+	}
+	var mostrarActividad3 = function()
+	{
+		$("#section4").show("slow");
+		$("#section1").hide("fast");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");
+	}
+	var mostrarActividad4 = function()
+	{
+		$("#section5").show("slow");
+		$("#section1").hide("fast");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");
+	}
+	var mostrarActividad5 = function()
+	{
+		$("#section6").show("slow");
+		$("#section1").hide("fast");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section16").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");
+	}
+	var mostrarActividad6 = function()
+	{
+		$("#section7").show("slow");
+		$("#section1").hide("fast");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");
+	}
+	var mostrarActividad7 = function()
+	{
+		$("#section8").show("slow");
+		$("#section1").hide("fast");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");		
+		$("#section7").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");
+	}
+	
+	//-----------------------------------------------
+	var mostrarCactividad1 = function()
+	{
+		$("#section9").show("slow");
+		$("#section1").hide("fast");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");		
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");
+	}
+	var mostrarCactividad2 = function()
+	{
+		$("#section10").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section1").hide("fast");		
+		$("#section16").hide("fast");
+		$("#section17").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");		
+		$("#section18").hide("fast");
+		
+	}
+	var mostrarCactividad3 = function()
+	{
+		$("#section11").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");			
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");	
+		$("#section1").hide("fast");
+		
+	}
+	var mostrarCactividad4 = function()
+	{
+		$("#section12").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");			
+		$("#section20").hide("fast");	
+		$("#section1").hide("fast");
+	}
+	var mostrarCactividad5 = function()
+	{
+		$("#section13").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");			
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");	
+		$("#section1").hide("fast");
+	}
+	var mostrarCactividad6 = function()
+	{
+		$("#section14").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");		
+		$("#section1").hide("fast");
+	}
+	var mostrarCactividad7 = function()
+	{
+		$("#section15").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section16").hide("fast");
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");		
+		$("#section1").hide("fast");
+
+	}
+//--------------------------------------------
+	var mostrarJactividad1 = function()
+	{
+		$("#section16").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");		
+		$("#section1").hide("fast");
+
+		
+	}
+	var mostrarJactividad2 = function()
+	{
+		$("#section17").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section16").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");		
+		$("#section1").hide("fast");
+
+		
+	}
+	var mostrarJactividad3 = function()
+	{
+		$("#section18").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section16").hide("fast");			
+		$("#section19").hide("fast");		
+		$("#section20").hide("fast");	
+		$("#section1").hide("fast");
+
+		
+	}
+
+	var mostrarHactividad1 = function()
+	{
+		$("#section19").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section16").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section20").hide("fast");		
+		$("#section1").hide("fast");
+	}
+
+	var mostrarAcerca = function()
+	{
+		$("#section20").show("slow");
+		$("#section2").hide("fast");		
+		$("#section3").hide("fast");
+		$("#section4").hide("fast");
+		$("#section5").hide("fast");
+		$("#section6").hide("fast");
+		$("#section7").hide("fast");		
+		$("#section8").hide("fast");		
+		$("#section9").hide("fast");		
+		$("#section10").hide("fast");		
+		$("#section11").hide("fast");		
+		$("#section12").hide("fast");		
+		$("#section13").hide("fast");		
+		$("#section14").hide("fast");		
+		$("#section15").hide("fast");		
+		$("#section17").hide("fast");		
+		$("#section16").hide("fast");		
+		$("#section18").hide("fast");		
+		$("#section19").hide("fast");		
+		$("#section1").hide("fast");	
+	}
+$("#btn_inicio").on("click",mostrarInicio);
+$("#btn_a1").on("click",mostrarActividad1);
+$("#btn_a2").on("click",mostrarActividad2);
+$("#btn_a3").on("click",mostrarActividad3);
+$("#btn_a4").on("click",mostrarActividad4);
+$("#btn_a5").on("click",mostrarActividad5);
+$("#btn_a6").on("click",mostrarActividad6);
+$("#btn_a7").on("click",mostrarActividad7);
+
+$("#btn_c1").on("click",mostrarCactividad1);
+$("#btn_c2").on("click",mostrarCactividad2);
+$("#btn_c3").on("click",mostrarCactividad3);
+$("#btn_c4").on("click",mostrarCactividad4);
+$("#btn_c5").on("click",mostrarCactividad5);
+$("#btn_c6").on("click",mostrarCactividad6);
+$("#btn_c7").on("click",mostrarCactividad7);
+
+$("#btn_j1").on("click",mostrarJactividad1);
+$("#btn_j2").on("click",mostrarJactividad2);
+$("#btn_j3").on("click",mostrarJactividad3);
+
+$("#acerca").on("click",mostrarAcerca);
+
+$("#btn_p1").on("click",mostrarHactividad1);
+}
+$(document).on("ready",inicio)
